@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <title>Nightfever Website</title>
+  <title>Nightfever Website Navigation Concept</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=792, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,11 +10,11 @@
 </head>
 <body class="list">
   <header class="caption">
-    <h1>Nightfever Website</h1>
-    <p>Nightfever Web Team</p>
+    <h1>Nightfever Website Navigation Concept</h1>
+    <p>Johannes Müller</p>
   </header>
   <section class="slide cover" id="Cover"><div>
-    <h2>Nightfever Web</h2>
+    <h2>Nightfever Web Navigation Concept</h2>
     <p>by <a href="mailto:johannes.mueller@smj-fulda.org">Johannes Müller</a></p>
     <!--
       To apply styles to the certain slides
@@ -40,59 +40,120 @@
     </style>
   </div></section>
   <section class="slide"><div>
-    <h2>Situation Detail</h2>
+    <h2>Motivation</h2>
     <ul>
       <li>Our website is digitally outdated</li>
       <li>Big challenges: Internationalization, mobile use</li>
-      <li>Limited features and usability</li>
+      <li>Increase features and usability</li>
       <li>Software is hard to maintain and extend</li>
       <li>Security and reliability threatened</li>
     </ul>
     <p class="note">Our web strategy needs a new approach!</p>
   </div></section>
+  <section class="slide shout"><div>
+    <h2>User Stories</h2>
+  </div></section>
   <section class="slide"><div>
-    <h2>Milestones</h2>
+    <h2>User Stories</h2>
+    <h3><strong>A:</strong> A user who <em>looks for general information on nightfever</em> wants to &hellip;</h3>
     <ol>
-      <li>Survey ✔</li>
-      <li><strong>Concept:</strong> What do we want? [April]</li>
-      <li>Strategy: How to realize our goals [May]</li>
-      <li>Implementation: Development, testing and continuous improvement [October]</li>
-      <li>Production</li>
+      <li>get a precise description of the idea and purpose of Nightfever</li>
+      <li>be able to learn more about it</li>
+      <li>discover nightfever cities and countries</li>
+      <li>learn about nearby locations and dates</li>
     </ol>
   </div></section>
   <section class="slide"><div>
-    <h2>Survey Results</h2>
-    <p>23 responses (as of 2014-03-05)</p>
-    <h3>Key insights:</h3>
+    <h2>User Stories (Cont.)</h2>
+    <h3><strong>B:</strong> A user who <em>looks for information on a specific nightfever city</em>
+    wants to &hellip;</h3>
+    <ol>
+      <li>find upcoming events in that city</li>
+      <li>consume articles and media about previous events in that city</li>
+      <li>learn more about nightfever</li>
+      <li>discover nearby cities</li>
+    </ol>
+  </div></section>
+  <section class="slide"><div>
+    <h2>User Stories (Cont.)</h2>
+    <h3><strong>C:</strong> A regular user <em>looking for updates on Nightfever</em> wants to &hellip;</h3>
+    <ol>
+      <li>get the latest news (articles, media, newsletters)</li>
+      <li>know about upcoming important events</li>
+    </ol>
+    <h3><strong>D:</strong> A regular user <em>looking for updates on a specific city</em> wants to &hellip;</h3>
+    <ol>
+      <li>find upcoming events in that city and nearby cities</li>
+      <li>read latest news from that city</li>
+      <li>learn about important news from other cities and global</li>
+    </ol>
+  </div></section>
+  <section class="slide"><div>
+    <h2>User Stories (Cont.)</h2>
+    <h3><strong>E:</strong> A user who <em>wants to participate or start Nightfever in his city</em> wants to &hellip;</h3>
+    <ol>
+      <li>get background information on nightfever</li>
+      <li>know how they can participate</li>
+    </ol>
+  </div></section>
+  <section class="slide shout"><div>
+    <h2>Information Architecture</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Scopes</h2>
     <ul>
-      <li>Information and contact for people interested in participating</li>
-      <li>Mobile usability</li>
-      <li>Limit features to the necessary (no information overflow)</li>
-      <li>additional content about Christianity, Theology, NF (history, mission)</li>
-      <li>Public newsletter</li>
+      <li>a scope acts as an independent website on its own domain</li>
+      <li>creates an individual hierarchy</li>
+      <li>contains content elements and aggregates them</li>
+      <li>user permissions are given on a scope domain</li>
     </ul>
   </div></section>
   <section class="slide"><div>
-    <h2>Concept: Goals</h2>
+   <h2>Landing Pages</h2>
     <ul>
-      <li>Reliable and future proof platform</li>
-      <li>Modern design, mobile-ready</li>
-      <li>Internationalization</li>
-      <li>Usability for visitors and editors</li>
-      <li>Intranet</li>
+      <li>global site <code>nightfever.org</code></li>
+      <li>city sites (local nightfever groups) <code>[city].nightfever.org</code></li>
+      <li>project sites (teams &amp; major events) <code>[project].nightfever.org</code></li>
+      <li style="color: #555;">regional sites (countries) <code>nightfever.org/[region]</code></li>
+      <li style="color: #555;">micro-sites (nightfever specials) <code>nightfever.org/special</code></li>
     </ul>
   </div></section>
   <section class="slide"><div>
-    <h2>Intranet</h2>
+    <h2>Landing Pages</h2>
+    <p>The landing page of each scope is customizabe using some common elements:</p>
     <ul>
-      <li>Ressources (atm nightfever-forum.de)</li>
-      <li>Tools to support NF work</li>
-      <li>Communication<ul>
-        <li>Who is responsible?</li>
-        <li>Information (Newsletter)</li>
-        <li>Where can I get infos?</li>
-        <li>Team communication</li>
-      </ul></li>
+      <li>news feed</li>
+      <li>navigation</li>
+      <li>teasers</li>
+      <li>upcoming events</li>
+      <li>media elements</li>
+    </ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Content Types</h2>
+    <ul>
+      <li><strong>Page</strong> static webpage</li>
+      <li><strong>Story</strong> full-featured articles with enhanced authoring features</li>
+      <li><strong>Event</strong> several event types</li>
+      <li><strong>Micropost</strong> short text post with the ability to reference internal or external content including a preview of the referenced content</li>
+      <li><strong>Venue</strong> event locations of Nightfever evenings</li>
+      <li><strong>Media & Gallery</strong> foto, video and audio elements</li>
+      <li><strong>Statement</strong> statements from visitors</li>
+    </ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Website Structure</h2>
+    <a href="website structure.svg">strucure graph</a>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Key Navigation Features</h2>
+    <ul>
+      <li>switching between different localizations of the current page (if available)</li>
+      <li>subpages and other content in the same scope</li>
+      <li>related entities of a certain site (country -> cities, event -> city)</li>
+      <li>quick access to all other cities and projects</li>
+      <li>discover nearby nightfever cities</li>
+      <li>upcoming events (including nearby)</li>
     </ul>
   </div></section>
   <section class="slide shout" id="SeeMore"><div>
